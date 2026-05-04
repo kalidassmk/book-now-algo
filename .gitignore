@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Virtual envs
+venv/
+venv*/
+.venv/
+env/
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+
+# Test / type cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+logs/
+
+# Generated data / reports
+*.json.bak
+*.tmp
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
