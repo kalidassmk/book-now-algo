@@ -1,3 +1,4 @@
+import os
 import redis
 import json
 import logging
@@ -5,7 +6,10 @@ import logging
 logger = logging.getLogger(__name__)
 
 class RedisClient:
-    def __init__(self, host='localhost', port=6379, db=0):
+    def __init__(self, host=None, port=None, db=None):
+        host = host or os.environ.get('REDIS_HOST', 'localhost')
+        port = int(port or os.environ.get('REDIS_PORT', '6379'))
+        db = int(db if db is not None else os.environ.get('REDIS_DB', '0'))
         self.client = redis.Redis(host=host, port=port, db=db, decode_responses=True)
 
     def get_usdt_symbols(self):
