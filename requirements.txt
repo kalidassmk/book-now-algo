@@ -1,7 +1,6 @@
 requests==2.31.0
 beautifulsoup4==4.12.2
 newspaper3k==0.2.8
-playwright==1.40.0
 aiohttp==3.9.1
 feedparser==6.0.10
 redis==5.0.1
@@ -14,7 +13,4 @@ fake-useragent==1.4.0
 vaderSentiment==3.3.2
 fastapi
 uvicorn
-openai
-anthropic
-google-genai
 httpx
