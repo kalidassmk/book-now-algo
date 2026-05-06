@@ -1,6 +1,6 @@
 # Crypto News Analyzer
 
-A production-ready Python system that analyzes cryptocurrency news from multiple trusted sources and generates BUY/HOLD/SELL signals using advanced NLP techniques. ([EMAIL_ADDRESS]  [GCP_API_KEY] AIzaSyCGaZdxqEHKJIlV11aaGg9qO5Vj1nMJYxg
+A production-ready Python system that analyzes cryptocurrency news from multiple trusted sources and generates BUY/HOLD/SELL signals using advanced NLP techniques. 
 
 ## Features
 
